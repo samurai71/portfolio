@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply text-slate-500 dark:bg-sky-800 dark:text-white;
+}
+
 h2 {
   @apply font-bold font-serif;
 }
