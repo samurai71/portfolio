@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "About",
+};
+
 export default function Home() {
   return (
     <section className="container mx-auto px-2">
