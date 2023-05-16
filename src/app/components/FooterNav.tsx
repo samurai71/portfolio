@@ -11,6 +11,8 @@ const FooterNav = () => {
       <Link href="/projects">Projects</Link>
       <Link href="/contact">Contact</Link>
       <Link href="/stats">Stats</Link>
+      <Link href="/skills">Skills</Link>
+      <Link href="/services">Services</Link>
       <Link href="/newsletter">Newsletter</Link>
       <Link href="/rss">RSS</Link>
     </nav>
