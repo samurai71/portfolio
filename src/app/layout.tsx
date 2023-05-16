@@ -1,4 +1,3 @@
-// import TopNav from "../components/TopNav";
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer";
 import "./globals.css";
