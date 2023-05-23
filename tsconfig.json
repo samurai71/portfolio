@@ -23,7 +23,8 @@
       "baseUrl": ["."],
       "@/*": ["./src/*"],
       "@/compenents/*": ["./components/*"],
-      "@/content/*": ["./src/content/*"]
+      "@/content/*": ["./src/content/*"],
+      "@/lib/*": ["./lib/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
