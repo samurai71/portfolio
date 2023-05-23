@@ -10,23 +10,22 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }) {
-  const { title, description } = await fetchPost(params.slug);
-
-  return {
-    title,
-    description,
-  };
+  //const { title, description } = await fetchPost(params.slug);
+  //   return {
+  //     title,
+  //     description,
+  //   };
 }
 
 export default async function Page({ params }: { params: { slug: string } }) {
-  const { body_markdown } = await fetchPost(params.slug);
+  //const { body_markdown } = await fetchPost(params.slug);
 
-  const content = await renderMarkdown(body_markdown);
+  //const content = await renderMarkdown(body_markdown);
 
   return (
     <>
       <article>
-        <div dangerouslySetInnerHTML={{ __html: content }} />
+        {/* <div dangerouslySetInnerHTML={{ __html: content }} /> */}
       </article>
     </>
   );
