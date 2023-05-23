@@ -14,7 +14,7 @@ const FooterNav = () => {
       <Link href="/skills">Skills</Link>
       <Link href="/services">Services</Link>
       <Link href="/newsletter">Newsletter</Link>
-      <Link href="/rss">RSS</Link>
+      {/* <Link href="/rss">RSS</Link> */}
     </nav>
   );
 };
