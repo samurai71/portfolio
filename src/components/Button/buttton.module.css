@@ -1,0 +1,3 @@
+.btn-blue-grad {
+  @apply rounded-xl bg-gradient-to-r from-blue-700 to-[#709dff] uppercase text-white shadow-xl shadow-gray-400;
+}
