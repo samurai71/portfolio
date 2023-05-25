@@ -24,7 +24,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
   return (
     <>
-      <article>
+      <article className="container mx-auto px-2">
         <div dangerouslySetInnerHTML={{ __html: content }} />
       </article>
     </>
