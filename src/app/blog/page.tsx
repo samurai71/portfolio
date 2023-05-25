@@ -14,7 +14,7 @@ export default async function Page() {
   return (
     <section className="container mx-auto px-2">
       <h2>Blog</h2>
-      <p>The following posts are from my dev.to blog.</p>
+      <p>The following posts are from my Dev.to blog.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-8">
         {posts.map((post) => (
           <Link href={`/blog/${post.slug}`}>{post.title}</Link>
