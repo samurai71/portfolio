@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Topskills from "@/components/Skills/Topskills";
 
 export default function Home() {
   return (
@@ -9,6 +10,11 @@ export default function Home() {
           <code className="font-mono font-bold">src/app/page.tsx</code>
         </p>
       </div>
+      <h2>Skills</h2>
+      <Topskills />
+      <h2>Services</h2>
+      <h2>Recent Blog Posts</h2>
+      <h2>Contact</h2>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a

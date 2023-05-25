@@ -15,88 +15,87 @@ import {
   SiObsstudio,
   SiGrammarly,
   SiFirefox,
-} from 'react-icons/si';
+} from "react-icons/si";
 import {
   BsFillPaletteFill,
   BsFillTerminalFill,
   BsWindows,
   BsGithub,
-} from 'react-icons/bs';
-import { FaGitAlt, FaSearch } from 'react-icons/fa';
+} from "react-icons/bs";
+import { FaGitAlt, FaSearch } from "react-icons/fa";
 
 //import SVG from '@components/SVG';
 
-const utilities = {
-  lastUpdate: 'June 30, 2022',
+const utilitiesData = {
+  lastUpdate: "June 30, 2022",
   system: {
-    title: 'System',
+    title: "System",
     data: [
       {
-        name: 'VSCode',
-        description: 'Primary Code editor',
+        name: "VSCode",
+        description: "Primary Code editor",
         Icon: SiVisualstudiocode,
-        link: 'https://code.visualstudio.com/download',
+        link: "https://code.visualstudio.com/download",
       },
       {
-        name: 'Sublime Text',
-        description: 'Text editor',
+        name: "Sublime Text",
+        description: "Text editor",
         Icon: SiSublimetext,
-        link: 'https://www.techspot.com/downloads/5546-sublime-text.html',
+        link: "https://www.techspot.com/downloads/5546-sublime-text.html",
       },
       {
-        name: 'Oh-my-zsh',
-        description: 'Terminal Theme',
+        name: "Oh-my-zsh",
+        description: "Terminal Theme",
         Icon: BsFillTerminalFill,
-        link: 'https://ohmyz.sh/',
+        link: "https://ohmyz.sh/",
       },
       {
-        name: 'Firefox',
-        description: 'Primary Browser',
+        name: "Firefox",
+        description: "Primary Browser",
         Icon: SiFirefox,
-        link: 'https://www.mozilla.org/en-US/firefox/new/',
-
+        link: "https://www.mozilla.org/en-US/firefox/new/",
       },
       {
-        name: 'Chrome',
-        description: 'Secondary Browser',
+        name: "Chrome",
+        description: "Secondary Browser",
         Icon: SiGooglechrome,
-        link: 'https://www.google.com/chrome',
+        link: "https://www.google.com/chrome",
       },
     ],
   },
 
   tools: {
-    title: 'Coding Tools',
+    title: "Coding Tools",
     data: [
       {
-        name: 'React.js',
-        description: 'Primary Front-end library',
+        name: "React.js",
+        description: "Primary Front-end library",
         Icon: SiReact,
-        link: 'https://reactjs.org/',
+        link: "https://reactjs.org/",
       },
       {
-        name: 'Next.js',
-        description: 'Primary Web Development Framework',
+        name: "Next.js",
+        description: "Primary Web Development Framework",
         Icon: SiNextdotjs,
-        link: 'https://nextjs.org/',
+        link: "https://nextjs.org/",
       },
       {
-        name: 'TailwindCSS',
-        description: 'For styling the front-end',
+        name: "TailwindCSS",
+        description: "For styling the front-end",
         Icon: SiTailwindcss,
-        link: 'https://tailwindcss.com/',
+        link: "https://tailwindcss.com/",
       },
       {
-        name: 'Vercel',
-        description: 'Hosting for Projects',
+        name: "Vercel",
+        description: "Hosting for Projects",
         Icon: SiVercel,
-        link: 'http://vercel.com/',
+        link: "http://vercel.com/",
       },
       {
-        name: 'Prettier',
-        description: 'For Code formatting',
+        name: "Prettier",
+        description: "For Code formatting",
         Icon: SiPrettier,
-        link: 'https://prettier.io/',
+        link: "https://prettier.io/",
       },
       // {
       //   name: 'Eslint',
@@ -105,10 +104,10 @@ const utilities = {
       //   link: 'https://eslint.org/',
       // },
       {
-        name: 'Git',
-        description: 'Version Control',
+        name: "Git",
+        description: "Version Control",
         Icon: FaGitAlt,
-        link: 'https://git-scm.com/downloads',
+        link: "https://git-scm.com/downloads",
       },
       // {
       //   name: 'Github Desktop',
@@ -117,80 +116,80 @@ const utilities = {
       //   link: 'https://desktop.github.com/',
       // },
       {
-        name: 'pnpm',
-        description: 'Primary Package Manager',
+        name: "pnpm",
+        description: "Primary Package Manager",
         Icon: SiPnpm,
-        link: 'https://pnpm.io/installation',
+        link: "https://pnpm.io/installation",
       },
       {
-        name: 'yarn',
-        description: 'Alternative Package Manager',
+        name: "yarn",
+        description: "Alternative Package Manager",
         Icon: SiYarn,
-        link: 'https://classic.yarnpkg.com/lang/en/docs/install/',
+        link: "https://classic.yarnpkg.com/lang/en/docs/install/",
       },
       {
-        name: 'Figma',
-        description: 'Primary Design tool',
+        name: "Figma",
+        description: "Primary Design tool",
         Icon: SiFigma,
-        link: 'https://www.figma.com/downloads/',
+        link: "https://www.figma.com/downloads/",
       },
       {
-        name: 'Insomnia',
-        description: 'For testing APIs',
+        name: "Insomnia",
+        description: "For testing APIs",
         Icon: SiInsomnia,
-        link: 'https://insomnia.rest/download',
+        link: "https://insomnia.rest/download",
       },
     ],
   },
 
   software: {
-    title: 'Software/Applications',
+    title: "Software/Applications",
     data: [
       {
-        name: 'Bitwarden',
-        description: 'Password Manager to manage all the login',
+        name: "Bitwarden",
+        description: "Password Manager to manage all the login",
         Icon: SiBitwarden,
-        link: 'https://bitwarden.com/',
+        link: "https://bitwarden.com/",
       },
       {
-        name: 'OBS Studio',
-        description: 'Screen Recorder',
+        name: "OBS Studio",
+        description: "Screen Recorder",
         Icon: SiObsstudio,
-        link: 'https://obsproject.com/',
+        link: "https://obsproject.com/",
       },
       {
-        name: 'Grammarly',
-        description: 'Typing assistant that reviews spelling, grammar, etc.',
+        name: "Grammarly",
+        description: "Typing assistant that reviews spelling, grammar, etc.",
         Icon: SiGrammarly,
-        link: 'https://www.grammarly.com/',
+        link: "https://www.grammarly.com/",
       },
-    //   {
-    //     name: 'ShareX',
-    //     description:
-    //       'To capture or record and share it with a single press of a ke',
-    //     Icon: SVG.ShareX,
-    //     link: 'https://getsharex.com/downloads/',
-    //   },
-    //   {
-    //     name: 'Ditto',
-    //     description: 'Clipboard Manager',
-    //     Icon: SVG.Ditto,
-    //     link: 'https://ditto-cp.sourceforge.io/',
-    //   },
-    //   {
-    //     name: 'Microsoft Todo',
-    //     description: 'To manage all my todos',
-    //     Icon: SVG.MicrosoftToDo,
-    //     link: 'https://todo.microsoft.com/tasks/',
-    //   },
-    //   {
-    //     name: 'Raindrop.io',
-    //     description: 'Bookmark Manager',
-    //     Icon: SVG.RainDrop,
-    //     link: 'https://raindrop.io/',
-    //   },
+      //   {
+      //     name: 'ShareX',
+      //     description:
+      //       'To capture or record and share it with a single press of a ke',
+      //     Icon: SVG.ShareX,
+      //     link: 'https://getsharex.com/downloads/',
+      //   },
+      //   {
+      //     name: 'Ditto',
+      //     description: 'Clipboard Manager',
+      //     Icon: SVG.Ditto,
+      //     link: 'https://ditto-cp.sourceforge.io/',
+      //   },
+      //   {
+      //     name: 'Microsoft Todo',
+      //     description: 'To manage all my todos',
+      //     Icon: SVG.MicrosoftToDo,
+      //     link: 'https://todo.microsoft.com/tasks/',
+      //   },
+      //   {
+      //     name: 'Raindrop.io',
+      //     description: 'Bookmark Manager',
+      //     Icon: SVG.RainDrop,
+      //     link: 'https://raindrop.io/',
+      //   },
     ],
   },
 };
 
-export default utilities;
+export default utilitiesData;

@@ -6,7 +6,7 @@ const TopNav = () => {
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
       <Link href="/utlities">Utilities</Link>
-      <Link href="/blogs">Blogs</Link>
+      <Link href="/blog">Blog</Link>
       <Link href="/certificates">Certificates</Link>
       <Link href="/projects">Projects</Link>
       <Link href="/contact">Contact</Link>

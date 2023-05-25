@@ -1,4 +1,4 @@
-//import utilities from "@/content/utilitiesData";
+//import utilitiesData from "@/content/utilitiesData";
 
 export const metadata = {
   title: "Utilities",
@@ -9,7 +9,7 @@ export const metadata = {
 function utlities() {
   return (
     <section className="container mx-auto px-2">
-      <h2>Utilities</h2>
+      <h1>Utilities</h1>
       <p>
         In case you are wondering What tech I use, Here&apos;s the list of what
         tech I&apos;m currently using for coding on the daily basis. This list
