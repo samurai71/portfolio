@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Topskills from "@/components/Skills/Topskills";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         </p>
       </div>
       <h2>Skills</h2>
+      <Topskills />
       <h2>Services</h2>
       <h2>Recent Blog Posts</h2>
       <h2>Contact</h2>
