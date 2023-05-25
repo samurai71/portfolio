@@ -1,4 +1,4 @@
-//import utilities from "@/content/utilitiesData";
+//import utilitiesData from "@/content/utilitiesData";
 
 export const metadata = {
   title: "Utilities",
