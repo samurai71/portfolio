@@ -4,8 +4,16 @@ import "./globals.css";
 import { Raleway, Bitter, Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
-const bitter = Bitter({ subsets: ["latin"] });
-const raleway = Raleway({ subsets: ["latin"] });
+const bitter = Bitter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-bitter",
+});
+const raleway = Raleway({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-raleway",
+});
 
 export const metadata = {
   title: {
@@ -21,8 +29,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <body className={bitter.className}>
+    <html lang="en" className="{`${bitter.variable} ${raleway.variable}`}">
+      <body className="dark">
         <TopNav />
         {children}
         <Footer />

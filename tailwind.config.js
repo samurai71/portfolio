@@ -6,6 +6,13 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   darkMode: "class",
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["var(--font-bitter)"],
+        serif: ["var(--font-raleway)"],
+      },
+    },
+  },
   plugins: [require("@tailwindcss/typography")],
 };
