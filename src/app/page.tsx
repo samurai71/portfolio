@@ -10,7 +10,6 @@ export default function Home() {
           <code className="font-mono font-bold">src/app/page.tsx</code>
         </p>
       </div>
-      <h2>Skills</h2>
       <Topskills />
       <h2>Services</h2>
       <h2>Recent Blog Posts</h2>
