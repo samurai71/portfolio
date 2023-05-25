@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Topskills from "@/components/Skills/Topskills";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       <Topskills />
       <h2>Services</h2>
       <h2>Recent Blog Posts</h2>
-      <h2>Contact</h2>
+      <Contact />
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a

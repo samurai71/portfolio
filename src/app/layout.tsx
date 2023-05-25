@@ -1,9 +1,11 @@
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer/Footer";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Raleway, Bitter, Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
+const bitter = Bitter({ subsets: ["latin"] });
+const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
@@ -20,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className={inter.className}>
+      <body className={bitter.className}>
         <TopNav />
         {children}
         <Footer />
