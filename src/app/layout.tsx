@@ -1,9 +1,8 @@
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer/Footer";
 import "./globals.css";
-import { Raleway, Bitter, Inter } from "next/font/google";
+import { Raleway, Bitter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
 const bitter = Bitter({
   subsets: ["latin"],
   display: "swap",
@@ -29,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="{`${bitter.variable} ${raleway.variable}`}">
+    <html lang="en" className="{`${bitter.variable}, ${raleway.variable}`}">
       <body className="dark">
         <TopNav />
         {children}
