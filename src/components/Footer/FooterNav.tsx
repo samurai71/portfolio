@@ -5,7 +5,7 @@ import CanadianFlag from "../../public/assets/cdn.webp";
 const FooterNav = () => {
   return (
     <>
-      <div className="flex flex-row items-center justify-items-center container mx-auto px-3">
+      <div className="flex flex-row items-top justify-items-center container mx-auto px-3">
         <div className="basis-1/3 flex-col md:flex-row">
           <nav className="flex flex-col gap-y-2">
             <Link href="/">Home</Link>
