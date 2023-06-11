@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const FooterNav = () => {
   return (
@@ -24,7 +25,13 @@ const FooterNav = () => {
             <Link href="/rss">RSS</Link>
           </nav>
         </div>
-        <div className="basis-1/3">Div 3</div>
+        <div className="basis-1/3">
+          <h2>Proudly Canadian</h2>
+          {/* <Image
+            src="../../public/assets/cdn.webp"
+            alt="Picture of the author"
+          /> */}
+        </div>
       </div>
       {/* <nav className="space-x-4 container-md h-8 mt-3 mb-3 pb-2 text-center border-2">
         <Link href="/">Home</Link>
