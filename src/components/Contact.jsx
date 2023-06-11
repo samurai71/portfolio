@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 //import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactImg from "../public/assets/contact.jpg";
+import ContactImg from "../../public/assets/contact.jpg";
 
 const Contact = () => {
   return (
