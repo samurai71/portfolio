@@ -1,6 +1,6 @@
 import Frontendskills from "@/components/Skills/Frontendskills";
 import Backendskills from "@/components/Skills/Backendskills";
-import Fullstackskills from "@/components/SKills/Fullstackskills";
+import Fullstackskills from "@/components/Skills/Fullstackskills";
 import Devopsskills from "@/components/Skills/Devopsskills";
 
 export const metadata = {
