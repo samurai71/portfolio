@@ -1,9 +1,18 @@
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer/Footer";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Raleway, Bitter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const bitter = Bitter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-bitter",
+});
+const raleway = Raleway({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-raleway",
+});
 
 export const metadata = {
   title: {
@@ -19,8 +28,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <body className={inter.className}>
+    <html lang="en" className="{`${bitter.variable}, ${raleway.variable}`}">
+      <body className="dark">
         <TopNav />
         {children}
         <Footer />

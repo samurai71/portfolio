@@ -1,9 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
+import CanadianFlag from "../../public/assets/cdn.webp";
 
 const FooterNav = () => {
   return (
     <>
-      <div className="flex flex-row items-center justify-items-center container mx-auto px-3">
+      <div className="flex flex-row items-top justify-items-center container mx-auto px-3">
         <div className="basis-1/3 flex-col md:flex-row">
           <nav className="flex flex-col gap-y-2">
             <Link href="/">Home</Link>
@@ -24,7 +26,13 @@ const FooterNav = () => {
             <Link href="/rss">RSS</Link>
           </nav>
         </div>
-        <div className="basis-1/3">Div 3</div>
+        <div className="basis-1/3">
+          <h2>Proudly Canadian</h2>
+          <Image
+            src={CanadianFlag}
+            alt="Animated image of a waving Canadian Flag"
+          />
+        </div>
       </div>
       {/* <nav className="space-x-4 container-md h-8 mt-3 mb-3 pb-2 text-center border-2">
         <Link href="/">Home</Link>
