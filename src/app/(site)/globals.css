@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   @apply text-slate-500 dark:bg-sky-800 dark:text-white;
-}
+} */
 h1,
 h2,
 h3,

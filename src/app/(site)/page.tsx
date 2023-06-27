@@ -1,4 +1,4 @@
-import Image from "next/image";
+//import Image from "next/image";
 import Topskills from "@/components/Skills/Topskills";
 import Contact from "@/components/Contact";
 
