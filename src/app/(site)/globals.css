@@ -5,6 +5,7 @@
 /* body {
   @apply text-slate-500 dark:bg-sky-800 dark:text-white;
 } */
+
 h1,
 h2,
 h3,
@@ -20,4 +21,8 @@ h1 {
 
 h2 {
   @apply font-bold text-3xl;
+}
+
+.btn-blue-grad {
+  @apply rounded-xl bg-gradient-to-r from-blue-700 to-[#709dff] text-white shadow-xl shadow-gray-400;
 }

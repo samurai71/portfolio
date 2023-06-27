@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-//import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+
 import ContactImg from "@public/assets/contact.jpg";
 
 const Contact = () => {
@@ -132,21 +132,12 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
-                <button className="rounded-xl bg-gradient-to-r from-blue-700 to-[#709dff] uppercase text-white shadow-xl shadow-gray-400t-4 w-full p-4  bg-sky-700">
+                <button className="btn-blue-grad uppercase pt-4 w-full p-4  bg-sky-700">
                   Send Message
                 </button>
               </form>
             </div>
           </div>
-        </div>
-        <div className="flex justify-center py-12">
-          {/* <Link href="/">
-            <a>
-              <div className="cursor-pointer rounded-full p-4 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110">
-                <HiOutlineChevronDoubleUp className="text-blue-600" size={30} />
-              </div>
-            </a>
-          </Link> */}
         </div>
       </div>
     </section>
