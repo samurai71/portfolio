@@ -1,6 +1,6 @@
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer/Footer";
-import "./globals.css";
+import "../app/(site)/globals.css";
 import { Raleway, Bitter } from "next/font/google";
 
 const bitter = Bitter({
@@ -30,9 +30,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="{`${bitter.variable}, ${raleway.variable}`}">
       <body>
-        <TopNav />
+        {/* <TopNav /> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
