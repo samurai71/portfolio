@@ -80,6 +80,7 @@ const Contact = () => {
                       type="text"
                       id="name"
                       name="name"
+                      placeholder="Please enter your full name here"
                       required
                     />
                   </div>
@@ -92,6 +93,7 @@ const Contact = () => {
                       type="text"
                       id="phone"
                       name="phone"
+                      placeholder="(xxx)xxx-xxxx"
                       required
                     />
                   </div>
@@ -105,6 +107,7 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="email"
+                    placeholder="email@domain.com"
                     required
                   />
                 </div>
