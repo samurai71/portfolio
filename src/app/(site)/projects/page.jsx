@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Portfolio",
+  title: "Projects",
   description:
     "Samples of some work done Mark Landeryou from Sarnia Ontario Canada",
 };
