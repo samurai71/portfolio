@@ -115,7 +115,8 @@ const Contact = () => {
                     required
                   ></textarea>
                 </div>
-                <button className="mt-4 w-full p-4 text-black bg-sky-700 rounded-lg">
+
+                <button className="rounded-xl bg-gradient-to-r from-blue-700 to-[#709dff] uppercase text-white shadow-xl shadow-gray-400t-4 w-full p-4  bg-sky-700">
                   Send Message
                 </button>
               </form>
