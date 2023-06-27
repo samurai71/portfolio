@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import CanadianFlag from "../../public/assets/cdn.webp";
+import CanadianFlag from "@public/assets/cdn.webp";
 
 const FooterNav = () => {
   return (

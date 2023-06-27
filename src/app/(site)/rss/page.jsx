@@ -5,7 +5,11 @@ export const metadata = {
 };
 
 const RSS = () => {
-  return <section className="container mx-auto px-2">RSS</section>;
+  return (
+    <section className="container mx-auto px-2">
+      <h2 className="pb-2">RSS</h2>
+    </section>
+  );
 };
 
 export default RSS;
