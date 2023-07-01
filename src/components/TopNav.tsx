@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FiMoon, FiSun } from "react-icons/fi";
 
 const TopNav = () => {
   return (
@@ -10,6 +11,11 @@ const TopNav = () => {
       <Link href="/certificates">Certificates</Link>
       <Link href="/projects">Projects</Link>
       <Link href="/contact">Contact</Link>
+      {/* <div className="z-30 transition rounded-full cursor-pointer active:scale-75">
+        <FiMoon className="w-6 h-6 transition select-none sm:h-7 sm:w-7 active:scale-75" />
+
+        <FiSun className="w-6 h-6 transition select-none sm:h-7 sm:w-7 active:scale-75" />
+      </div> */}
     </nav>
   );
 };

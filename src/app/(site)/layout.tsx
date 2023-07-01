@@ -29,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="{`${bitter.variable}, ${raleway.variable}`}">
-      <body className="dark">
+      <body>
         <TopNav />
         {children}
         <Footer />
