@@ -27,7 +27,9 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Mark Landeryou</h2>
-                <p className="text-blue-600">Full Stack Developer</p>
+                <p className="text-blue-600">
+                  Full Stack Developer & IoT Developer
+                </p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.

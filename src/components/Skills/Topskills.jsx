@@ -15,9 +15,9 @@ import { FaReact } from "react-icons/fa";
 
 const Topskills = () => {
   return (
-    <div>
+    <section>
       <h2>My Top Skills</h2>
-    </div>
+    </section>
   );
 };
 
