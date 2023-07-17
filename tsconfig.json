@@ -25,7 +25,8 @@
       "@/compenents/*": ["./components/*"],
       "@/content/*": ["./src/content/*"],
       "@/lib/*": ["./lib/*"],
-      "@public/*": ["./public/*"]
+      "@public/*": ["./public/*"],
+      "@/styles/*": ["./styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

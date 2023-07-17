@@ -1,6 +1,8 @@
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer/Footer";
-import "./globals.css";
+//import "@/styles/globals.css";
+//import "../../styles/globals.css";
+import "../../styles/globals.css";
 import { Raleway, Bitter } from "next/font/google";
 
 const bitter = Bitter({
