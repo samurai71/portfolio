@@ -76,8 +76,8 @@ export default function Home() {
         </div>
       </div>
       <Topskills />
-      <h2 className="font-serif">Services</h2>
-      <h2>Recent Blog Posts</h2>
+      <h2 className="mx-5">Services</h2>
+      <h2 className="mx-5">Recent Blog Posts</h2>
       <Contact />
     </main>
   );
