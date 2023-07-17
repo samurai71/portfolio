@@ -14,16 +14,17 @@ const FooterNav = () => {
             <Link href="/blog">Blog</Link>
             <Link href="/certificates">Certificates</Link>
             <Link href="/projects">Projects</Link>
+            <Link href="/contact">Contact</Link>
           </nav>
         </div>
         <div className="basis-1/3 flex-col">
           <nav className="flex flex-col gap-y-2">
-            <Link href="/contact">Contact</Link>
             <Link href="/stats">Stats</Link>
             <Link href="/skills">Skills</Link>
             <Link href="/services">Services</Link>
             <Link href="/newsletter">Newsletter</Link>
             <Link href="/rss">RSS</Link>
+            <Link href="/privacy">Privacy</Link>
           </nav>
         </div>
         <div className="basis-1/3">
