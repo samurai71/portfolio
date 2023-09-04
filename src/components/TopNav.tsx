@@ -1,5 +1,6 @@
+"use client";
 import Link from "next/link";
-import { FiMoon, FiSun } from "react-icons/fi";
+//import { FiMoon, FiSun } from "react-icons/fi";
 
 const TopNav = () => {
   return (
