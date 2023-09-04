@@ -8,7 +8,7 @@ import ContactImg from "@public/assets/contact.jpg";
 
 const Contact = () => {
   return (
-    <section id="contact" className="w-full">
+    <section className="w-full">
       <div className="m-auto w-full max-w-[1240px] px-2 py-16 ">
         <p className="text-xl uppercase tracking-widest text-blue-700">
           Contact

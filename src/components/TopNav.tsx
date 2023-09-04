@@ -1,9 +1,10 @@
+"use client";
 import Link from "next/link";
-import { FiMoon, FiSun } from "react-icons/fi";
+//import { FiMoon, FiSun } from "react-icons/fi";
 
 const TopNav = () => {
   return (
-    <nav className="space-x-4 container-md h-8 mt-3 mb-3 pb-2 text-center border-2">
+    <nav className="space-x-4 container-md h-8 mt-3 mb-3 pb-2 text-center text-lg">
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
       <Link href="/utlities">Utilities</Link>
