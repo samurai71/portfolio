@@ -6,7 +6,7 @@ export const metadata = {
 function privacy() {
   return (
     <section className="container mx-auto px-2">
-      <h2>Privacy Policy</h2>
+      <h1 className="uppercase tracking-widest">Privacy Policy</h1>
       <p className="py-2">
         At{" "}
         <a href="https://marklanderyou.ca" className="text-blue-500 underline">
