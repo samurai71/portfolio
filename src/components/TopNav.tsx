@@ -4,8 +4,8 @@ import { FiMoon, FiSun } from "react-icons/fi";
 
 const TopNav = () => {
   return (
-    <header className="sticky left-0 top-0  h-8 z-10 flex flex-row pb-3 mb-3 container mx-auto border-2">
-      <div className="px-2 basis-1/4">Column 1</div>
+    <header className="sticky left-0 top-0  h-8 z-10 flex flex-row pb-3 mb-3 container mx-auto">
+      <div className="px-2 basis-1/4"></div>
       <nav className="basis-1/2 space-x-2 text-2xl text-indigo-600">
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
