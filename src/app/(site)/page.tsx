@@ -15,7 +15,7 @@ export default function Home() {
             className="rounded-full shadow"
             width={400}
             height={400}
-            alt="cover Profile Image"
+            alt="Picture of Mark Landeryou"
             quality={75}
             priority={true}
           />

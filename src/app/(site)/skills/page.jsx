@@ -10,7 +10,7 @@ export const metadata = {
 const Skills = () => {
   return (
     <section className="container mx-auto px-2">
-      <h1>Skills</h1>
+      <h1 className="uppercase tracking-widest">Skills</h1>
       <p>Some of the skills that I have acquired over the years.</p>
       <Frontendskills />
       <Backendskills />

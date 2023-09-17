@@ -9,7 +9,7 @@ export const metadata = {
 function utlities() {
   return (
     <section className="container mx-auto px-2">
-      <h1>Utilities</h1>
+      <h1 className="uppercase tracking-widest">Utilities</h1>
       <p>
         In case you are wondering What tech I use, Here&apos;s the list of what
         tech I&apos;m currently using for coding on the daily basis. This list
