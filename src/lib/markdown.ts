@@ -9,15 +9,17 @@ import remarkParse from "remark-parse";
 import { unified } from "unified";
 
 export function renderMarkdown(markdown: string): Promise<string> {
-  return unified()
-    .use(remarkParse)
-    .use(remarkRehype)
-    .use(rehypeHighlight, { ignoreMissing: true })
-    .use(rehypeSlug)
-    .use(rehypeStringify)
-    .use(toc, {
-      headings: ["h1", "h2", "h3"],
-    })
-    .process(markdown)
-    .then((res) => res.toString());
+  return (
+    unified()
+      // .use(remarkParse)
+      // .use(remarkRehype)
+      // .use(rehypeHighlight, { ignoreMissing: true })
+      .use(rehypeSlug)
+      .use(rehypeStringify)
+      .use(toc, {
+        headings: ["h1", "h2", "h3"],
+      })
+      .process(markdown)
+      .then((res) => res.toString())
+  );
 }
