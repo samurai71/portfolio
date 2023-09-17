@@ -2,13 +2,14 @@ import Link from "next/link";
 
 export const metadata = {
   title: "About",
+  description: "About Mark Landeryou from Sarnia Ontario, Canada",
 };
 
 export default function Home() {
   return (
-    <section className="container mx-auto px-2">
-      <h2>About</h2>
-      <h3 className="font-bold">Who I Am</h3>
+    <section className="container mx-auto px-3 mb-3 h-full w-full rounded-xl p-4 shadow-xl shadow-gray-400">
+      <h1 className="uppercase tracking-widest">About</h1>
+      <h3 className="font-bold uppercase tracking-widest">Who I Am</h3>
       <p className="py-2">I am not your average developer</p>
       <p className="py-2">
         Hey, I am Mark Landeryou. A Full Stack Developer/Designer and IoT
