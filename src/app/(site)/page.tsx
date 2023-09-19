@@ -7,7 +7,7 @@ import homeProfileImage from "@public/assets/Mark_blackshirt.jpg";
 
 export default function Home() {
   return (
-    <main className="container mx-auto px-3">
+    <main className="container mx-auto px-3 pt-3">
       <div className="relative mx-auto flex w-full flex-col items-center gap-10">
         <div className="relative flex h-44 w-44 items-center justify-center rounded-full p-3 before:absolute before:inset-0 before:animate-photo-spin before:rounded-full before:border-t-4 before:border-b-4 before:border-black before:dark:border-white xs:h-52 xs:w-52">
           <Image

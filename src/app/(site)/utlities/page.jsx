@@ -8,7 +8,7 @@ export const metadata = {
 
 function utlities() {
   return (
-    <section className="container mx-auto px-2">
+    <section className="container mx-auto px-2 py-3">
       <h1 className="uppercase tracking-widest">Utilities</h1>
       <p>
         In case you are wondering What tech I use, Here&apos;s the list of what

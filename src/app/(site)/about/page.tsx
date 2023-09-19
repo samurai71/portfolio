@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <section className="container mx-auto px-3 mb-3 h-full w-full rounded-xl p-4 shadow-xl shadow-gray-400">
+    <section className="container mx-auto px-3 mb-3 h-full w-full rounded-xl p-4 shadow-xl shadow-gray-400 pt-3 pb-3">
       <h1 className="uppercase tracking-widest">About</h1>
       <h3 className="font-bold uppercase tracking-widest">Who I Am</h3>
       <p className="py-2">I am not your average developer</p>
