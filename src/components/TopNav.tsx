@@ -4,9 +4,9 @@ import { FiMoon, FiSun } from "react-icons/fi";
 
 const TopNav = () => {
   return (
-    <header className="sticky left-0 top-0  h-8 z-10 flex flex-row flex-wrap pt-3 pb-3 mb-3 container mx-auto print:hidden">
-      <div className="px-2 basis-1/4">
-        <FiSun className="w-6 h-6 transition select-none sm:h-7 sm:w-7 active:scale-75" />
+    <header className="container sticky left-0  top-0 z-10 mx-auto mb-3 flex h-8 flex-row flex-wrap pb-3 pt-3 print:hidden">
+      <div className="basis-1/4 px-2">
+        <FiSun className="h-6 w-6 select-none transition active:scale-75 sm:h-7 sm:w-7" />
       </div>
       <nav className="basis-1/2 space-x-3 text-2xl text-indigo-600">
         <Link href="/">Home</Link>
@@ -23,8 +23,8 @@ const TopNav = () => {
       </div> */}
       </nav>
       {/* <div className="basis-1/4 px-2">Column 3</div> */}
-      <div className="z-30 transition rounded-full cursor-pointer active:scale-75">
-        <FiMoon className="w-6 h-6 transition select-none sm:h-7 sm:w-7 active:scale-75" />
+      <div className="z-30 cursor-pointer rounded-full transition active:scale-75">
+        <FiMoon className="h-6 w-6 select-none transition active:scale-75 sm:h-7 sm:w-7" />
 
         {/* <FiSun className="w-6 h-6 transition select-none sm:h-7 sm:w-7 active:scale-75" /> */}
       </div>

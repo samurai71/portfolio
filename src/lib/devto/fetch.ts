@@ -9,7 +9,7 @@ export async function fetchPosts(): Promise<Post[]> {
 ${process.env.DEVTO_USERNAME}`,
     {
       next: { revalidate: 3 * 60 * 60 },
-    }
+    },
   );
 
   if (!res.ok) notFound();
@@ -21,7 +21,7 @@ export async function fetchPost(slug: string): Promise<PostDetails> {
     `https://dev.to/api/articles/${process.env.DEVTO_USERNAME}/${slug}`,
     {
       next: { revalidate: 3 * 60 * 60 },
-    }
+    },
   );
 
   if (!res.ok) notFound();

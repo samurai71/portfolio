@@ -16,11 +16,11 @@ h6 {
 }
 
 h1 {
-  @apply font-bold text-4xl;
+  @apply text-4xl font-bold;
 }
 
 h2 {
-  @apply font-bold text-3xl;
+  @apply text-3xl font-bold;
 }
 
 .btn-blue-grad {
