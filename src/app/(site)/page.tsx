@@ -76,8 +76,14 @@ export default function Home() {
         </div>
       </div>
       <Topskills />
-      <h2 className="mx-5">Services</h2>
-      <h2 className="mx-5">Recent Blog Posts</h2>
+      <button className="btn-blue-grad pt-4 p-4 bg-sky-700 mx-auto">
+        See more of my Skills
+      </button>
+      <h2 className="mx-5 mt-3">Services</h2>
+      <button className="btn-blue-grad pt-4 p-4 bg-sky-700">
+        More about Services
+      </button>
+      <h2 className="mx-5 mt-3">Recent Blog Posts</h2>
       <Contact />
     </main>
   );
