@@ -6,8 +6,8 @@ export const metadata = {
 
 const Newsletter = () => {
   return (
-    <section className="container mx-auto px-2">
-      <h2>Newsletter</h2>
+    <section className="container mx-auto px-2 py-3">
+      <h1 className="uppercase tracking-widest">Newsletter</h1>
     </section>
   );
 };

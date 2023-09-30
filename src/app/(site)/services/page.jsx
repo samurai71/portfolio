@@ -4,8 +4,8 @@ export const metadata = {
 
 const Services = () => {
   return (
-    <section className="container mx-auto px-2">
-      <h2>Services</h2>
+    <section className="container mx-auto px-2 py-3">
+      <h1 className="uppercase tracking-widest">Services</h1>
     </section>
   );
 };
