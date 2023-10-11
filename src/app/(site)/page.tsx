@@ -8,6 +8,7 @@ import WebImage from "@public/assets/web.jpg";
 import DesignImage from "@public/assets/design.jpg";
 import MaintenanceImage from "@public/assets/maintenance.jpg";
 import IoTImage from "@public/assets/IoT.jpg";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -81,9 +82,11 @@ export default function Home() {
       </div>
       <Topskills />
       <div className="flex flex-row content-center items-center justify-center">
-        <button className="btn-blue-grad mx-auto bg-sky-700 p-4 pt-4">
-          See more of my Skills
-        </button>
+        <Link href="/skills">
+          <button className="btn-blue-grad mx-auto bg-sky-700 p-4 pt-4">
+            See more of my Skills
+          </button>
+        </Link>
       </div>
       <section>
         <h2 className="mx-5 mt-3">Services</h2>
@@ -146,9 +149,11 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-row content-center items-center justify-center">
-          <button className="btn-blue-grad flex bg-sky-700 p-4 pt-4">
-            More about Services
-          </button>
+          <Link href="/services">
+            <button className="btn-blue-grad flex bg-sky-700 p-4 pt-4">
+              More about Services
+            </button>
+          </Link>
         </div>
       </section>
       <h2 className="mx-5 mt-3">Recent Blog Posts</h2>
