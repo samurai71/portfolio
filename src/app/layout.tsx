@@ -11,6 +11,7 @@ const bitter = Bitter({
   variable: "--font-bitter",
 });
 const raleway = Raleway({
+  weight: ["400", "700"],
   subsets: ["latin"],
   display: "swap",
   variable: "--font-raleway",
