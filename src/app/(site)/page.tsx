@@ -4,6 +4,10 @@ import Contact from "@/components/Contact";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import homeProfileImage from "@public/assets/Mark_blackshirt.jpg";
+import WebImage from "@public/assets/web.jpg";
+import DesignImage from "@public/assets/design.jpg";
+import MaintenanceImage from "@public/assets/maintenance.jpg";
+import IoTImage from "@public/assets/IoT.jpg";
 
 export default function Home() {
   return (
@@ -76,13 +80,77 @@ export default function Home() {
         </div>
       </div>
       <Topskills />
-      <button className="btn-blue-grad mx-auto bg-sky-700 p-4 pt-4">
-        See more of my Skills
-      </button>
-      <h2 className="mx-5 mt-3">Services</h2>
-      <button className="btn-blue-grad bg-sky-700 p-4 pt-4">
-        More about Services
-      </button>
+      <div className="flex flex-row content-center items-center justify-center">
+        <button className="btn-blue-grad mx-auto bg-sky-700 p-4 pt-4">
+          See more of my Skills
+        </button>
+      </div>
+      <section>
+        <h2 className="mx-5 mt-3">Services</h2>
+        <div className="mx-6 my-2 flex flex-row justify-between gap-3">
+          <div className="flex basis-1/2">
+            <div className="max-w-sm overflow-hidden rounded shadow-lg">
+              <Image
+                src={WebImage}
+                className=""
+                width={400}
+                height={400}
+                alt="Image for Web Services"
+                quality={75}
+                priority={true}
+              />
+              <h3 className="py-3 text-center">Web</h3>
+            </div>
+          </div>
+          <div className="flex basis-1/2">
+            <div className="max-w-sm overflow-hidden rounded shadow-lg">
+              <Image
+                src={DesignImage}
+                className=""
+                width={400}
+                height={400}
+                alt="Image for Design Services"
+                quality={75}
+                priority={true}
+              />
+              <h3 className="py-3 text-center">Design</h3>
+            </div>
+          </div>
+          <div className="flex basis-1/2">
+            <div className="max-w-sm overflow-hidden rounded shadow-lg">
+              <Image
+                src={MaintenanceImage}
+                className=""
+                width={400}
+                height={400}
+                alt="Image for Maintenance Services"
+                quality={75}
+                priority={true}
+              />
+              <h3 className="py-3 text-center">Maintenance</h3>
+            </div>
+          </div>
+          <div className="flex basis-1/2">
+            <div className="max-w-sm overflow-hidden rounded shadow-lg">
+              <Image
+                src={IoTImage}
+                className=""
+                width={400}
+                height={400}
+                alt="Image for IoT Services"
+                quality={75}
+                priority={true}
+              />
+              <h3 className="py-3 text-center">IoT</h3>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-row content-center items-center justify-center">
+          <button className="btn-blue-grad flex bg-sky-700 p-4 pt-4">
+            More about Services
+          </button>
+        </div>
+      </section>
       <h2 className="mx-5 mt-3">Recent Blog Posts</h2>
       <Contact />
     </main>
