@@ -1,6 +1,6 @@
 # Mark Landeryou's Personal Portfolio
 
-One Paragraph of the project description
+This is the personal portfolio of Mark Landeryou from Sarnia Ontario Canada.
 
 ## Getting Started
 
@@ -60,12 +60,8 @@ Add additional notes to deploy this on a live system
 
 ## Authors
 
-- **Billie Thompson** - _Provided README Template_ -
-  [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
+- **Mark Landeryou** - _Provided README Template_ -
+  [samurai71](https://github.com/samurai71)
 
 ## License
 
