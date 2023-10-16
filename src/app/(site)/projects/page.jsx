@@ -6,7 +6,7 @@ export const metadata = {
 
 const portfolio = () => {
   return (
-    <section className="container mx-auto px-2 rounded py-3">
+    <section className="container mx-auto rounded px-2 py-3">
       <h1 className="pb-2 uppercase tracking-widest">Projects</h1>
       <p className="indent-2">
         Some of my projects that I have created. Some of these projects were for

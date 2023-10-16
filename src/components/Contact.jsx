@@ -137,7 +137,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
-                <button className="btn-blue-grad uppercase pt-4 w-full p-4  bg-sky-700">
+                <button className="btn-blue-grad w-full bg-sky-700 p-4 pt-4  uppercase">
                   Send Message
                 </button>
               </form>

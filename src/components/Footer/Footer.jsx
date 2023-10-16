@@ -2,9 +2,9 @@ import FooterNav from "./FooterNav";
 
 const Footer = () => {
   return (
-    <footer className="pt-3 mt-2 container mx-auto border-t">
+    <footer className="container mx-auto mt-2 border-t pt-3">
       <FooterNav />
-      <p className="font-sans pb-3 text-center px-2 sm:text-xs md:text-sm">
+      <p className="px-2 pb-3 text-center font-sans sm:text-xs md:text-sm">
         &copy; {new Date().getFullYear()} Mark Landeryou All rights reserved.
       </p>
     </footer>

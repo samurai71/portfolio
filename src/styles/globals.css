@@ -6,6 +6,10 @@
   @apply text-slate-500 dark:bg-sky-800 dark:text-white;
 } */
 
+/* body {
+  @apply font-mono;
+} */
+
 h1,
 h2,
 h3,
@@ -13,14 +17,15 @@ h4,
 h5,
 h6 {
   font-family: var(--font-raleway);
+  /* @apply font-serif; */
 }
 
 h1 {
-  @apply font-bold text-4xl;
+  @apply text-4xl font-bold;
 }
 
 h2 {
-  @apply font-bold text-3xl;
+  @apply text-3xl font-bold;
 }
 
 .btn-blue-grad {
