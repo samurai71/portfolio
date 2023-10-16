@@ -60,11 +60,10 @@ Add additional notes to deploy this on a live system
 
 ## Authors
 
-- **Mark Landeryou** - _Provided README Template_ -
-  [samurai71](https://github.com/samurai71)
+- **Mark Landeryou** - [samurai71](https://github.com/samurai71)
 
 ## License
 
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
+This project is licensed under the MIT
 Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
 details
