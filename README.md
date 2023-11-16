@@ -46,7 +46,7 @@
 
 ## :dart: About
 
-Describe your project
+This a Mark Landeryou's Personal Portfolio. Created in Next js.
 
 ## :sparkles: Features
 
