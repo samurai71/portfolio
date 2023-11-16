@@ -1,69 +1,97 @@
-# Mark Landeryou's Personal Portfolio
+<div align="center" id="top"> 
+  <img src="./.github/app.gif" alt="Portfolio" />
 
-This is the personal portfolio of Mark Landeryou from Sarnia Ontario Canada.
+&#xa0;
 
-## Getting Started
+  <!-- <a href="https://portfolio.netlify.app">Demo</a> -->
+</div>
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+<h1 align="center">Portfolio</h1>
 
-### Prerequisites
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/samurai71/portfolio?color=56BEB8">
 
-Requirements for the software and other tools to build, test and push
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/samurai71/portfolio?color=56BEB8">
 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/samurai71/portfolio?color=56BEB8">
 
-### Installing
+  <img alt="License" src="https://img.shields.io/github/license/samurai71/portfolio?color=56BEB8">
 
-A step by step series of examples that tell you how to get a development
-environment running
+  <img alt="Github issues" src="https://img.shields.io/github/issues/samurai71/portfolio?color=56BEB8" />
 
-Say what the step will be
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/portfolio?color=56BEB8" /> -->
 
-    Give the example
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/portfolio?color=56BEB8" /> -->
+</p>
 
-And repeat
+<!-- Status -->
 
-    until finished
+<h4 align="center">
+	🚧  Portfolio 🚀 Under construction...  🚧
+</h4>
 
-End with an example of getting some data out of the system or using it
-for a little demo
+<hr>
 
-## Running the tests
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+</p>
 
-Explain how to run the automated tests for this system
+<br>
 
-### Sample Tests
+## :dart: About
 
-Explain what these tests test and why
+Describe your project
 
-    Give an example
+## :sparkles: Features
 
-### Style test
+:heavy_check_mark: Feature 1;\
+:heavy_check_mark: Feature 2;\
+:heavy_check_mark: Feature 3;
 
-Checks if the best practices and the right coding style has been used.
+## :rocket: Technologies
 
-    Give an example
+The following tools were used in this project:
 
-## Deployment
+- [Expo](https://expo.io/)
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-Add additional notes to deploy this on a live system
+## :white_check_mark: Requirements
 
-## Built With
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-- [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-  for the Code of Conduct
-- [Creative Commons](https://creativecommons.org/) - Used to choose
-  the license
+## :checkered_flag: Starting
 
-## Authors
+```bash
+# Clone this project
+$ git clone https://github.com/samurai71/portfolio
 
-- **Mark Landeryou** - [samurai71](https://github.com/samurai71)
+# Access
+$ cd portfolio
 
-## License
+# Install dependencies
+$ yarn
 
-This project is licensed under the MIT
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
+# Run the project
+$ yarn start
+
+# The server will initialize in the <http://localhost:3000>
+```
+
+## :memo: License
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+
+Made with :heart: by <a href="https://github.com/samurai71" target="_blank">Mark Landeryou</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
