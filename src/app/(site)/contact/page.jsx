@@ -6,9 +6,11 @@ export const metadata = {
 
 const Contact = () => {
   return (
-    <section className="container mx-auto px-2">
-      <ContactInfor />
-    </section>
+    <main>
+      <section className="container mx-auto px-2">
+        <ContactInfor />
+      </section>
+    </main>
   );
 };
 

@@ -12,14 +12,16 @@ export default async function Page() {
   const posts = await fetchPosts();
 
   return (
-    <section className="container mx-auto px-2">
-      <h1 className="uppercase tracking-widest">Blog</h1>
-      <p>The following posts are from my Dev.to blog.</p>
-      <div className="grid grid-cols-1 gap-4 py-8 md:grid-cols-2">
-        {posts.map((post) => (
-          <Link href={`/blog/${post.slug}`}>{post.title}</Link>
-        ))}
-      </div>
-    </section>
+    <main>
+      <section className="container mx-auto px-2">
+        <h1 className="uppercase tracking-widest">Blog</h1>
+        <p>The following posts are from my Dev.to blog.</p>
+        <div className="grid grid-cols-1 gap-4 py-8 md:grid-cols-2">
+          {posts.map((post) => (
+            <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+          ))}
+        </div>
+      </section>
+    </main>
   );
 }

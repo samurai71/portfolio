@@ -9,14 +9,16 @@ export const metadata = {
 };
 const Skills = () => {
   return (
-    <section className="container mx-auto px-2 py-3">
-      <h1 className="uppercase tracking-widest">Skills</h1>
-      <p>Some of the skills that I have acquired over the years.</p>
-      <Frontendskills />
-      <Backendskills />
-      <Fullstackskills />
-      <Devopsskills />
-    </section>
+    <main>
+      <section className="container mx-auto px-2 py-3">
+        <h1 className="uppercase tracking-widest">Skills</h1>
+        <p>Some of the skills that I have acquired over the years.</p>
+        <Frontendskills />
+        <Backendskills />
+        <Fullstackskills />
+        <Devopsskills />
+      </section>
+    </main>
   );
 };
 
