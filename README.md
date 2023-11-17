@@ -3,7 +3,8 @@
 
 &#xa0;
 
-  <!-- <a href="https://portfolio.netlify.app">Demo</a> -->
+<a href="https://portfolio-mark-landeryou.vercel.app/">Demo</a>
+
 </div>
 
 <h1 align="center">Portfolio</h1>
@@ -19,9 +20,9 @@
 
   <img alt="Github issues" src="https://img.shields.io/github/issues/samurai71/portfolio?color=56BEB8" />
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/portfolio?color=56BEB8" /> -->
+  <img alt="Github forks" src="https://img.shields.io/github/forks/samurai71/portfolio?color=56BEB8" />
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/portfolio?color=56BEB8" /> -->
+  <img alt="Github stars" src="https://img.shields.io/github/stars/samurai71/portfolio?color=56BEB8" />
 </p>
 
 <!-- Status -->
@@ -78,10 +79,10 @@ $ git clone https://github.com/samurai71/portfolio
 $ cd portfolio
 
 # Install dependencies
-$ yarn
+$ npm install
 
 # Run the project
-$ yarn start
+$ npm run dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
