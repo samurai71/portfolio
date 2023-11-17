@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { FiMoon, FiSun } from "react-icons/fi";
+/* todo: refactor out the nav list */
 
 const TopNav = () => {
   return (
