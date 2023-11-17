@@ -65,6 +65,7 @@ const Contact = () => {
           <div className="col-span-3 h-auto w-full rounded-xl shadow-xl shadow-gray-400 lg:p-4">
             <div className="p-4">
               <div>
+                <h2 className="text-center tracking-widest">Contact Form</h2>
                 <p className="text-red-600">* Required Fields</p>
               </div>
               <form

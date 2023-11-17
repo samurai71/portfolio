@@ -1,0 +1,11 @@
+.title {
+  @apply py-3 uppercase tracking-widest;
+}
+
+.sectiontitle {
+  @apply py-3 font-bold tracking-widest text-violet-800;
+}
+
+h3 .sectiontitle {
+  @apply py-3 font-bold tracking-widest text-violet-800;
+}
