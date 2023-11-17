@@ -8,6 +8,7 @@ import WebImage from "@public/assets/web.jpg";
 import DesignImage from "@public/assets/design.jpg";
 import MaintenanceImage from "@public/assets/maintenance.jpg";
 import IoTImage from "@public/assets/IoT.jpg";
+//import { IoOpenOutline } from "react-icons/io5";
 import Link from "next/link";
 
 export default function Home() {
@@ -55,7 +56,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="cursor-pointer rounded-full p-6 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110 dark:bg-slate-500 dark:shadow-none">
+              <div className="cursor-pointer rounded-full p-6 shadow-lg shadow-gray-200 duration-300 ease-in hover:scale-110 dark:bg-slate-500 dark:shadow-none">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -64,7 +65,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="cursor-pointer rounded-full p-6 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110 dark:bg-slate-500 dark:shadow-none">
+              <div className="cursor-pointer rounded-full p-6 shadow-lg shadow-gray-200 duration-300 ease-in hover:scale-110 dark:bg-slate-500 dark:shadow-none">
                 <FaGithub />
               </div>
             </a>
@@ -72,11 +73,11 @@ export default function Home() {
         </div>
         <div className="overflow-hidden rounded-md">
           {/* <button
-            className="flex select-none items-center gap-2 rounded-md border border-gray-500 px-5 py-2 outline-none hover:bg-gray-100 dark:border-gray-400 dark:hover:bg-neutral-800"
+            className="flex select-none items-center gap-2 rounded-md border border-gray-500 px-5 py-2 outline-none hover:bg-gray-100 dark:border-gray-200 dark:hover:bg-neutral-800"
             onClick={() => window.open("/resume")}
           >
             <FiDownload />
-            <p>Resume</p>
+            <p>Resume <IoOpenOutline /></p>
           </button> */}
         </div>
       </div>
@@ -96,13 +97,13 @@ export default function Home() {
               <Image
                 src={WebImage}
                 className=""
-                width={400}
-                height={400}
+                width={200}
+                height={200}
                 alt="Image for Web Services"
                 quality={75}
                 priority={true}
               />
-              <h3 className="py-3 text-center">Web</h3>
+              <h2 className="py-3 text-center">Web</h2>
             </div>
           </div>
           <div className="flex basis-1/2">
@@ -110,13 +111,13 @@ export default function Home() {
               <Image
                 src={DesignImage}
                 className=""
-                width={400}
-                height={400}
+                width={200}
+                height={200}
                 alt="Image for Design Services"
                 quality={75}
                 priority={true}
               />
-              <h3 className="py-3 text-center">Design</h3>
+              <h2 className="py-3 text-center">Design</h2>
             </div>
           </div>
           <div className="flex basis-1/2">
@@ -124,13 +125,13 @@ export default function Home() {
               <Image
                 src={MaintenanceImage}
                 className=""
-                width={400}
-                height={400}
+                width={200}
+                height={200}
                 alt="Image for Maintenance Services"
                 quality={75}
                 priority={true}
               />
-              <h3 className="py-3 text-center">Maintenance</h3>
+              <h2 className="py-3 text-center">Maintenance</h2>
             </div>
           </div>
           <div className="flex basis-1/2">
@@ -138,13 +139,13 @@ export default function Home() {
               <Image
                 src={IoTImage}
                 className=""
-                width={400}
-                height={400}
+                width={200}
+                height={200}
                 alt="Image for IoT Services"
                 quality={75}
                 priority={true}
               />
-              <h3 className="py-3 text-center">IoT</h3>
+              <h2 className="py-3 text-center">IoT</h2>
             </div>
           </div>
         </div>
@@ -156,7 +157,10 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <h2 className="mx-5 mt-3">Recent Blog Posts</h2>
+      <section>
+        <h2 className="mx-5 mt-3">Recent Blog Posts</h2>
+      </section>
+
       <Contact />
     </main>
   );
