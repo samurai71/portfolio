@@ -4,6 +4,7 @@ import Footer from "@/components/Footer/Footer";
 //import "@/styles/globals.css";
 import "../styles/globals.css";
 import { Raleway, Bitter } from "next/font/google";
+//import { ThemeProvider } from "next-themes";
 
 const bitter = Bitter({
   subsets: ["latin"],
@@ -33,9 +34,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="{`${bitter.variable}, ${raleway.variable}`}">
       <body>
+        {/* <ThemeProvider attribute="class" defaultTheme="system" enableSystem> */}
         {/* <TopNav /> */}
         {children}
         {/* <Footer /> */}
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );
