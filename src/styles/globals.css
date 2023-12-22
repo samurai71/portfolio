@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @layer base {
+  body {
+    @apply bg-[#edf6f9] 
+        dark:bg-blue-800;
+  }
+} */
+
 /* body {
   @apply text-slate-500 dark:bg-sky-800 dark:text-white;
 } */
