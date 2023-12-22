@@ -46,7 +46,7 @@ export default function Home() {
                 </motion.p> */}
           </div>
 
-          <p className="text-center text-sm font-medium text-slate-500 dark:text-gray-300 md:text-base">
+          <p className="text-center text-sm font-medium text-slate-500 md:text-base dark:text-gray-300">
             I’m focused on building responsive web applications while
             continually learning new technologies.
           </p>
