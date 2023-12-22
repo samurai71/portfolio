@@ -4,6 +4,7 @@ import Footer from "@/components/Footer/Footer";
 //import "../../styles/globals.css";
 import "../../styles/globals.css";
 import { Raleway, Bitter } from "next/font/google";
+import { Providers } from "../providers";
 
 const bitter = Bitter({
   subsets: ["latin"],
@@ -30,11 +31,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="{`${bitter.variable}, ${raleway.variable}`}">
+    <html
+      lang="en"
+      className="{`${bitter.variable}, ${raleway.variable}`}"
+      suppressHydrationWarning
+    >
       <body>
-        <TopNav />
-        {children}
-        <Footer />
+        <Providers>
+          <TopNav />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
