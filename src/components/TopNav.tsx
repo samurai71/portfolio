@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { FiMoon, FiSun } from "react-icons/fi";
+import DarkModeToggle from "./ThemeToggle";
 /* todo: refactor out the nav list */
 
 const TopNav = () => {
@@ -25,7 +26,8 @@ const TopNav = () => {
       </nav>
       {/* <div className="basis-1/4 px-2">Column 3</div> */}
       <div className="z-30 cursor-pointer rounded-full transition active:scale-75">
-        <FiMoon className="h-6 w-6 select-none transition active:scale-75 sm:h-7 sm:w-7" />
+        <DarkModeToggle />
+        {/* <FiMoon className="h-6 w-6 select-none transition active:scale-75 sm:h-7 sm:w-7" /> */}
 
         {/* <FiSun className="w-6 h-6 transition select-none sm:h-7 sm:w-7 active:scale-75" /> */}
       </div>
