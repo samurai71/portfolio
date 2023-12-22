@@ -1,4 +1,5 @@
-import "src/styles/privacy.module.css";
+//import ".src/styles/privacy.module.css";
+import "../../../styles/privacy.module.css";
 
 export const metadata = {
   title: "Privacy Policy",
