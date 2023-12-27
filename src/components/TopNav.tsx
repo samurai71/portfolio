@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { FiMoon, FiSun } from "react-icons/fi";
+//import { FiMoon, FiSun } from "react-icons/fi";
 import DarkModeToggle from "./ThemeToggle";
 /* todo: refactor out the nav list */
 
@@ -8,7 +8,7 @@ const TopNav = () => {
   return (
     <header className="container sticky left-0  top-0 z-10 mx-auto mb-3 flex h-8 flex-row flex-wrap pb-3 pt-3 print:hidden">
       <div className="basis-1/4 px-2">
-        <FiSun className="h-6 w-6 select-none transition active:scale-75 sm:h-7 sm:w-7" />
+        {/* <FiSun className="h-6 w-6 select-none transition active:scale-75 sm:h-7 sm:w-7" /> */}
       </div>
       <nav className="basis-1/2 space-x-3 text-2xl text-indigo-600">
         <Link href="/">Home</Link>
